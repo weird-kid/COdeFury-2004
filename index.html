@@ -55,6 +55,86 @@ THE BRAVEST THING ANYONE CAN EVER DO IS REACHOUT,WE ARE SUPER PROUD OF YOU!!</h1
     </div>
 </body>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relax with Pets</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 30px auto;
+            text-align: center;
+        }
+
+        .video-link {
+            display: inline-block;
+            margin: 10px;
+            position: relative;
+        }
+
+        .video-link img {
+            max-width: 300px;
+            border-radius: 10px;
+            transition: opacity 0.3s;
+        }
+
+        .video-link:hover img {
+            opacity: 0.7;
+        }
+
+        .video-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Relax with Pets</h1>
+        <p>Watch cute cat and dog videos to reduce stress!</p>
+    </header>
+
+    <div class="container">
+
+        <!-- Cat Video Link -->
+        <a href="https://youtu.be/cytJLvf-eVs?si=cPyuN4La3dEHXb1d" target="_blank" class="video-link">
+            <img src="data:image/jpeg;base64,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" alt="Watch Cute Cat Videos">
+            <span class="video-text">Watch cute Cat videos</span>
+        </a>
+
+        <!-- Dog Video Link -->
+        <a href="https://youtu.be/VAH-ixdFWFs?si=W70IQKyD6T3h1zAS" target="_blank" class="video-link">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-f2T6w8_2aE2EHzDzq_MnAa3T9MlJoJOsWg&usqp=CAU" alt="Watch Cute Dog Videos">
+            <span class="video-text">Watch cute Dog videos</span>
+        </a>
+
+    </div>
+</body>
+
+
+<head>
 	<title>
 		Weak_End Developers
 	</title>
