@@ -202,4 +202,22 @@
     font-family:"Dancing_Script variant0";
      border:none; 
 }
+.quote{
+    width:150px;
+    height:150px;
+    align-content: center;
+    font-family:"Dancing_Script variant0", Tofu;
+    border-radius:50px;
+    border:thin;
+    background-color: red;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.quote:hover{
+    opacity:0.8;
+    cursor:pointer
+}
+
 </style>
