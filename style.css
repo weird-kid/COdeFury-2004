@@ -15,7 +15,7 @@
 	}
 
 	.background {
-		background: red
+		background: rgb(163, 114, 179)
     ;
 		background-blend-mode: darken;
 		background-size: cover;
