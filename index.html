@@ -8,6 +8,58 @@
 	</title>
   <link rel="stylesheet" href="style.css">
 </head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image with Content</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .content-wrapper {
+            position: relative;
+            height: 100%;
+        }
+        .content-wrapper::before {
+            content: "";
+            background-image: url('https://images.news18.com/ibnlive/uploads/2022/03/yoga-3.jpg');
+            filter: opacity(0.75);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .hello{
+            align-content: center;
+        }
+    </style>
+</head>
+ <body>
+    <div class="content-wrapper">
+        <div class="content">
+           <pre> <h1 class="hello"> HELLO THERE!!</h1>
+        <h1>YOU'RE NOT ALONE.
+THE BRAVEST THING ANYONE CAN EVER DO IS REACHOUT,WE ARE SUPER PROUD OF YOU!!</h1>
+        
+        </pre>
+        
+        </div>
+    </div>
+</body>
+<head>
+	<title>
+		Weak_End Developers
+	</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
 <body class="image">
 	<nav class="navbar background">
@@ -31,7 +83,7 @@
 		<div class="box-main">
 			<div class="firstHalf">
 				<h1 class="text-big" id="web">
-					You can create a million lies, but there is only one truth 
+					GET RID OF THE "BUT"...
 				</h1>
 				
 				<p class="text-small">
