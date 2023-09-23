@@ -203,7 +203,7 @@
      border:none; 
 }
 .quote{
-    width:150px;
+    width:100%;
     height:150px;
     align-content: center;
     font-family:"Dancing_Script variant0", Tofu;
